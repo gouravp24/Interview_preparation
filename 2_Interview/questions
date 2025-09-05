@@ -1,0 +1,17 @@
+: Tell me about Class Component and Functional Component
+: Class uses this.state and lifecycle methods. Functional uses hooks (useState, useEffect). Functional is simpler and preferred now.
+
+: What is Redux and how you used it in your project?
+: Redux is a state management library that stores data in one central store. I used it for user login, authentication, and API data to avoid prop drilling.
+
+: Why do you use useState?
+: To manage and update data inside a component, like input values or toggle states.
+
+: Why do you use useEffect?
+: To run side effects like API calls, timers, or actions when a component loads or updates.
+
+: What other hooks do you use apart from useState and useEffect?
+: useContext (avoid prop drilling), useRef (access DOM or store values), useMemo (optimize performance), useCallback (memoize functions).
+
+: Do you use console.log? Why?
+: Yes, for debugging — to check API data, props, state values, and code flow. I don’t keep it in production code.

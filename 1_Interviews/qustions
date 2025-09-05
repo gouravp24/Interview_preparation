@@ -1,0 +1,60 @@
+// //1  what are the features of react
+// //  its use virtual dom to faster rendering
+// //  its use one way data binding
+// //  its use jsx to write html in js file
+// //  its component based architecture
+
+// //2  its compare to faster than angular
+
+// // what is use of babel
+// //  its use to transpile modern javascript code to backward compatible version
+
+// 1. What is the use of Babel?
+// Babel is a JavaScript compiler that converts modern JS (ES6+) into older JS (ES5) so it works in all browsers. It also supports JSX and TypeScript via plugins.
+
+// 2. Difference between Virtual DOM and Real DOM?
+
+// DOM → Actual browser UI structure, updates are slow.
+
+// Virtual DOM → Lightweight in-memory copy, React updates it first and applies minimal changes to real DOM → faster performance.
+
+// 3. What is the use of ES6?
+// ES6 (ECMAScript 2015) introduced features like let/const, arrow functions, template literals, classes, modules, promises, destructuring, async/await → makes code cleaner and easier to maintain.
+
+// 4. Different parts of a Component?
+// Import statements → State/Props → Logic (functions) → JSX (UI render).
+// (Class components also had lifecycle methods; functional components use hooks).
+
+// 5. Use of useState?
+// A React Hook to manage state in functional components. When state changes, React re-renders the UI with new values.
+
+// 6. Controlled vs Uncontrolled Components?
+
+// Controlled → Form data managed by React state (useState).
+
+// Uncontrolled → Form data managed by DOM, accessed via ref.
+
+// 7. Use of Prop Drilling?
+// Passing data from parent to deeply nested children via props. Useful for small apps. For large apps, use Context API or Redux to avoid complexity.
+
+// 8. Can we create custom hooks?
+// Yes. Custom hooks reuse stateful logic. Examples: useFetch, useLocalStorage, useDebounce. They keep code clean and reusable.
+
+// 9. Use of StrictMode in React?
+// A development tool that highlights potential issues (unsafe lifecycles, side effects, deprecated APIs). Doesn’t affect production.
+
+// 10. How to pass data between components?
+
+// Parent → Child = props
+
+// Child → Parent = callback functions
+
+// Sibling → via parent state
+
+// Many components → Context API / Redux
+
+// 11. Is Redux caching? Is it third-party?
+// Redux is not caching, it is a state management library. It stores global state in a single store. Yes, Redux is a third-party library (not built into React).
+
+// 12. How does routing work in React?
+// React uses React Router for client-side routing. It maps URLs to components, updates browser history, and re-renders only the matching component without full page reload.
